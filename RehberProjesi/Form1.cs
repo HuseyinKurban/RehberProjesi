@@ -122,6 +122,7 @@ namespace RehberProjesi
 
         private void btnresim_Click(object sender, EventArgs e)
         {
+           
             openFileDialog1.ShowDialog();
             pictureBox1.ImageLocation=openFileDialog1.FileName;
             txtresim.Text= openFileDialog1.FileName;
