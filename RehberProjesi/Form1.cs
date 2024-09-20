@@ -37,6 +37,7 @@ namespace RehberProjesi
             txtmail.Text = "";
             msktelefon.Text = "";
             txtresim.Text = "";
+            pictureBox1.ImageLocation = "";
             txtad.Focus();
 
         }
